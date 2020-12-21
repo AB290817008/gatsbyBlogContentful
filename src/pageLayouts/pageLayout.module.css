@@ -1,0 +1,134 @@
+.navBar{
+
+  border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    display: flex;
+    border-color: rgb(251,12,35);
+    justify-content: space-between;
+  background-color: black;
+  border-width: 0.5vmax;
+    
+}
+.otherHeadigs{
+  font-size: 2rem;
+  color: white;
+}
+
+.navBarHomeHeading{
+font-size: 3vmax;
+font-weight: bold;
+color: rgb(251,12,35);
+padding-right: 5vmax;
+
+}
+.navBarHomeHeading:hover{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.otherHeadigs:hover{
+  text-decoration: none;
+  text-shadow: 1px 3px 0px rgb(251,12,35);;
+  color: white;
+}
+
+.otherHeadingsActive{
+  text-decoration: none;
+  text-shadow: 1px 3px 0px rgb(251,12,35);;
+  color: white;
+
+}
+
+.toggle{
+  
+  background-color: rgb(251,12,35);
+}
+
+
+
+.contentAndFooterContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.contentAndFooterContainer .mainContent{
+  flex-grow: 1;
+  min-height: 87vh;
+}
+
+.contentAndFooterContainer .footer{
+background-color: black;
+color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+font-size: 1.5vmax;
+padding-right: 1vmax;
+padding-left: 1vmax;
+border-style: solid;
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-color: red;
+  
+}
+
+
+
+
+
+.navBarHeadingsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+.ButtonsInnerContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 0.3;
+  
+  
+}
+.signinButton{
+  
+  font-size: 1rem;
+  flex-grow: 0.1;
+  padding: 0.2rem;
+ 
+}
+
+.verificationMsg{
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2vh;
+  padding-left: 2vmax;
+}
+
+.verificationLink{
+
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.profileButton{
+  font-size: 1rem;
+  flex-grow: 0.1;
+  padding: 0.2rem;
+  
+
+}
+.profileButtonToggle{
+  width: 100%;
+}
