@@ -151,10 +151,10 @@ return (
 <div className = {styles.footer} >
 
 <span>
-    Khifoodguide@official.com
+    ABFoodBlog@official.com
   </span>
   <span>
-  Created by Waris Hasan, &copy; 2020
+  Created by AB, &copy; 2020
   </span>
  
   </div>

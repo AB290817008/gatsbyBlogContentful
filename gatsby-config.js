@@ -8,7 +8,7 @@ require('dotenv').config({
 });
 module.exports = {
 	siteMetadata: {
-		title: 'AB Food Blogs 2'
+		title: 'AB Food Blogs'
 	},
 	/* Your site config here */
 	plugins: [
